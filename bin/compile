@@ -9,7 +9,7 @@ CACHE_DIR=$2
 # http://orm-buildpack.s3.amazonaws.com/Xvfb.tar.gz
 
 # Buildpack URL
-FILE_NAME=Xvfb.tar.bz2
+FILE_NAME=Xvfb.tar.gz
 BUILDPACK_XVFB_PACKAGE=http://orm-buildpack.s3.amazonaws.com/${FILE_NAME}
 
 mkdir -p $CACHE_DIR
